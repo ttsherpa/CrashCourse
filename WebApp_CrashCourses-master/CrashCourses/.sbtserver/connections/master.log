@@ -1,0 +1,13 @@
+New log file opened at Mon Mar 13 22:42:17 PDT 2017 by 2696@DESKTOP-JI6ETD8
+Taking next connection to: 61189
+New client attempting to connect on port: 61190-61189
+  Address = /127.0.0.1:61189
+This client on port 61190 has uuid e5d3be08-c344-4eda-8ef4-ec9fd6cd22d1 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-e5d3be08-c344-4eda-8ef4-ec9fd6cd22d1
+Taking next connection to: 61189
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 2696@DESKTOP-JI6ETD8 logs at Mon Mar 13 22:45:18 PDT 2017, goodbye.

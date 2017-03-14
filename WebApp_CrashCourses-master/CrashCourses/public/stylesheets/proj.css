@@ -1,0 +1,27 @@
+#page-wrap {
+     width: 1500px;
+}
+
+.selectWidth {
+	width: auto;
+  	margin:4px;
+  }
+  
+#box {
+    border: 1px solid black;
+    height: 200px;
+    width: 600px;
+    overflow: auto;
+}
+
+.left {
+  display: inline;
+  padding-left: 20px;
+}
+
+.right {
+  float: right;
+  margin-top: -20%;
+  display: inline;
+}
+
