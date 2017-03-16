@@ -218,6 +218,8 @@ public static String convert_to_string(Time t){
     public static Time ConverttoMilitary(Time j){
         int militaryend=0;
         int militarystart=0;
+        int resultst=0;
+        int resultend=0;
         String both = convert_to_string(j);
         both = both.replaceAll("\\s+", "");
         both = both.replaceAll(":", "");
@@ -225,39 +227,35 @@ public static String convert_to_string(Time t){
         String[] tab = both.split("-");
         String start = tab[0];
         String end = tab[1];
-        if(start.contains("pm") && start.contains("12:")){
-            start.replace("pm", "");
-            int resultst = Integer.parseInt(start);
-            militarystart = resultst;
-        }
         
-        if(end.contains("pm") && end.contains("12:")){
-            start.replace("pm", "");
-            int resultend = Integer.parseInt(start);
-            militaryend = resultend;
-        }
-        
-        if(start.contains("pm") && !end.contains("12:")){
+        if(start.contains("pm")){
             start=start.replace("pm", "");
-            int resultst = Integer.parseInt(start);
+            resultst = Integer.parseInt(start);
             militarystart = resultst + 1200;
+            if(start.contains("12")){
+                militarystart=resultst;
+            }
         }
         
-        if(end.contains("pm") && !end.contains("12:")){
+        if(end.contains("pm")){
             end=end.replace("pm", "");
-            int resultend = Integer.parseInt(end);
+            resultend = Integer.parseInt(end);
             militaryend = resultend + 1200;
+            if(end.contains("12")){
+                militaryend=resultend;
+            }
         }
         if(start.contains("am")){
             start=start.replace("am", "");
-            int resultst = Integer.parseInt(start);
+            resultst = Integer.parseInt(start);
             militarystart = resultst;
         }
         if(end.contains("am")){
             end=end.replace("am","");
-            int resultend = Integer.parseInt(end);
+            resultend = Integer.parseInt(end);
             militaryend = resultend;
         }
+        
         String Militaryst = Integer.toString(militarystart);
         String Militaryen = Integer.toString(militaryend);
         System.out.println(Militaryst + " " + Militaryen);

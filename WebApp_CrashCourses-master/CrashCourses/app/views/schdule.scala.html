@@ -13,9 +13,6 @@
 	<script src="@routes.Assets.at("javascripts/jquery-3.0.0.min.js")"></script>
 </head>
 <body>
-    @for(sce <- seclist){
-   <p>@sce.day</p>
-    }
     
 <div class="cd-schedule loading">
 	<div class="timeline">
@@ -61,135 +58,96 @@
 				<ul class="Monday">
 					
 					@for(sce <- leclist){
-    <li class="single-event" data-start=@sce.startTime data-end=@sce.endTime data-content="event-rowing-workout" data-event="event-2">
+					@if(sce.day.equals("M")){
+    <li class="single-event" data-start=@sce.startTime data-end=@sce.endTime data-content="event-rowing-workout" data-event="event-1">
 						<a href="#0">	<em class="event-name">@sce.id</em> </a> </li>
     }
+    }
+    
+                    @for(section <- seclist){
+					@if(section.day.equals("M")){
+    <li class="single-event" data-start=@section.startTime data-end=@section.endTime data-content="event-rowing-workout" data-event="event-1">
+						<a href="#0">	<em class="event-name">@section.id</em> </a> </li>
+    }
+    }
 					
-					<!--<li class="single-event" data-start="11:00" data-end="12:30" data-content="event-rowing-workout" data-event="event-2">-->
-					<!--	<a href="#0">-->
-					<!--		<em class="event-name">Rowing Workout</em>-->
-					<!--	</a>-->
-					<!--</li>-->
-
-					<!--<li class="single-event" data-start="14:00" data-end="15:15"  data-content="event-yoga-1" data-event="event-3">-->
-					<!--	<a href="#0">-->
-					<!--		<em class="event-name">Yoga Level 1</em>-->
-					<!--	</a>-->
-					<!--</li>-->
 				</ul>
 			</li>
 
 			<li class="events-group">
 				<div class="top-info"><span>Tuesday</span></div>
 
-				<ul>
-					<li class="single-event" data-start="10:00" data-end="11:00"  data-content="event-rowing-workout" data-event="event-2">
-						<a href="#0">
-							<em class="event-name">Rowing Workout</em>
-						</a>
-					</li>
-
-					<li class="single-event" data-start="11:30" data-end="13:00"  data-content="event-restorative-yoga" data-event="event-4">
-						<a href="#0">
-							<em class="event-name">Restorative Yoga</em>
-						</a>
-					</li>
-
-					<li class="single-event" data-start="13:30" data-end="15:00" data-content="event-abs-circuit" data-event="event-1">
-						<a href="#0">
-							<em class="event-name">Abs Circuit</em>
-						</a>
-					</li>
-
-					<li class="single-event" data-start="15:45" data-end="16:45"  data-content="event-yoga-1" data-event="event-3">
-						<a href="#0">
-							<em class="event-name">Yoga Level 1</em>
-						</a>
-					</li>
+				<ul class ="Tuesday">
+					@for(sce <- leclist){
+					@if(sce.day.equals("T")){
+    <li class="single-event" data-start=@sce.startTime data-end=@sce.endTime data-content="event-rowing-workout" data-event="event-2">
+						<a href="#0">	<em class="event-name">@sce.id</em> </a> </li>
+    }
+    }
+    
+                    @for(section <- seclist){
+					@if(section.day.equals("T")){
+    <li class="single-event" data-start=@section.startTime data-end=@section.endTime data-content="event-rowing-workout" data-event="event-1">
+						<a href="#0">	<em class="event-name">@section.id</em> </a> </li>
+    }
+    }
 				</ul>
 			</li>
 
 			<li class="events-group">
 				<div class="top-info"><span>Wednesday</span></div>
 
-				<ul>
-					<li class="single-event" data-start="09:00" data-end="10:15" data-content="event-restorative-yoga" data-event="event-4">
-						<a href="#0">
-							<em class="event-name">Restorative Yoga</em>
-						</a>
-					</li>
-
-					<li class="single-event" data-start="10:45" data-end="11:45" data-content="event-yoga-1" data-event="event-3">
-						<a href="#0">
-							<em class="event-name">Yoga Level 1</em>
-						</a>
-					</li>
-
-					<li class="single-event" data-start="12:00" data-end="13:45"  data-content="event-rowing-workout" data-event="event-2">
-						<a href="#0">
-							<em class="event-name">Rowing Workout</em>
-						</a>
-					</li>
-
-					<li class="single-event" data-start="13:45" data-end="15:00" data-content="event-yoga-1" data-event="event-3">
-						<a href="#0">
-							<em class="event-name">Yoga Level 1</em>
-						</a>
-					</li>
+				<ul class="Wednesday">
+					@for(sce <- leclist){
+					@if(sce.day.equals("W")){
+    <li class="single-event" data-start=@sce.startTime data-end=@sce.endTime data-content="event-rowing-workout" data-event="event-3">
+						<a href="#0">	<em class="event-name">@sce.id</em> </a> </li>
+    }
+    }
+                    @for(section <- seclist){
+					@if(section.day.equals("W")){
+    <li class="single-event" data-start=@section.startTime data-end=@section.endTime data-content="event-rowing-workout" data-event="event-1">
+						<a href="#0">	<em class="event-name">@section.id</em> </a> </li>
+    }
+    }
 				</ul>
 			</li>
 
 			<li class="events-group">
 				<div class="top-info"><span>Thursday</span></div>
 
-				<ul>
-					<li class="single-event" data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1">
-						<a href="#0">
-							<em class="event-name">Abs Circuit</em>
-						</a>
-					</li>
-
-					<li class="single-event" data-start="12:00" data-end="13:45" data-content="event-restorative-yoga" data-event="event-4">
-						<a href="#0">
-							<em class="event-name">Restorative Yoga</em>
-						</a>
-					</li>
-
-					<li class="single-event" data-start="15:30" data-end="16:30" data-content="event-abs-circuit" data-event="event-1">
-						<a href="#0">
-							<em class="event-name">Abs Circuit</em>
-						</a>
-					</li>
-
-					<li class="single-event" data-start="17:00" data-end="18:30"  data-content="event-rowing-workout" data-event="event-2">
-						<a href="#0">
-							<em class="event-name">Rowing Workout</em>
-						</a>
-					</li>
+				<ul class="Thursday">
+				@for(sce <- leclist){
+					@if(sce.day.equals("R")){
+    <li class="single-event" data-start=@sce.startTime data-end=@sce.endTime data-content="event-rowing-workout" data-event="event-4">
+						<a href="#0">	<em class="event-name">@sce.id</em> </a> </li>
+    }
+    }
+                @for(section <- seclist){
+					@if(section.day.equals("T")){
+    <li class="single-event" data-start=@section.startTime data-end=@section.endTime data-content="event-rowing-workout" data-event="event-1">
+						<a href="#0">	<em class="event-name">@section.id</em> </a> </li>
+    }
+    }
 				</ul>
 			</li>
 
 			<li class="events-group">
 				<div class="top-info"><span>Friday</span></div>
 
-				<ul>
-					<li class="single-event" data-start="10:00" data-end="11:00"  data-content="event-rowing-workout" data-event="event-2">
-						<a href="#0">
-							<em class="event-name">Rowing Workout</em>
-						</a>
-					</li>
-
-					<li class="single-event" data-start="12:30" data-end="14:00" data-content="event-abs-circuit" data-event="event-1">
-						<a href="#0">
-							<em class="event-name">Abs Circuit</em>
-						</a>
-					</li>
-
-					<li class="single-event" data-start="15:45" data-end="16:45"  data-content="event-yoga-1" data-event="event-3">
-						<a href="#0">
-							<em class="event-name">Yoga Level 1</em>
-						</a>
-					</li>
+				<ul class="Friday">
+					@for(sce <- leclist){
+					@if(sce.day.equals("F")){
+    <li class="single-event" data-start=@sce.startTime data-end=@sce.endTime data-content="event-rowing-workout" data-event="event-5">
+						<a href="#0">	<em class="event-name">@sce.id</em> </a> </li>
+    }
+    }
+                    @for(section <- seclist){
+					@if(section.day.equals("F")){
+    <li class="single-event" data-start=@section.startTime data-end=@section.endTime data-content="event-rowing-workout" data-event="event-1">
+						<a href="#0">	<em class="event-name">@section.id</em> </a> </li>
+    }
+    }
 				</ul>
 			</li>
 		</ul>
@@ -218,9 +176,6 @@
 
 <script src="@routes.Assets.at("js/modernizr.js")"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-<script>
-$( "ul.Monday" ).append( '<li class="single-event" data-start="9:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1"><a href="#0"><em class="event-name">Abs Circuit</em></a></li>');
-</script>
 <script src="@routes.Assets.at("js/main.js")"></script> <!-- Resource jQuery -->
 </body>
 </html>
