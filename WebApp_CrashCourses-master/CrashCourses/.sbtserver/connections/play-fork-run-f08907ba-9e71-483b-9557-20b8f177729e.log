@@ -1,0 +1,9 @@
+New log file opened at Thu Mar 16 13:18:28 PDT 2017 by 10936@DESKTOP-JI6ETD8
+Sending msg to client play-fork-run-f08907ba-9e71-483b-9557-20b8f177729e: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\.sbtserver\connections\master.log))
+Sending msg to client play-fork-run-f08907ba-9e71-483b-9557-20b8f177729e: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\.sbtserver\master.log))
+Sending msg to client play-fork-run-f08907ba-9e71-483b-9557-20b8f177729e: DetachedLogEvent(LogMessage(debug,sbt client logs are in: C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\.sbtserver\connections\play-fork-run-f08907ba-9e71-483b-9557-20b8f177729e.log))
+Reading next message from client.
+Client play-fork-run-f08907ba-9e71-483b-9557-20b8f177729e closed, java.net.SocketException: Connection reset, shutting down
+Stopping client.
+Dropping message (0,ReceivedResponse()) to dead client play-fork-run-f08907ba-9e71-483b-9557-20b8f177729e
+Client play-fork-run-f08907ba-9e71-483b-9557-20b8f177729e thread exiting.

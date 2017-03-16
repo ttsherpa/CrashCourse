@@ -15,6 +15,7 @@ import java.util.*;
 import ucsbCurriculum.CourseScraper.*;
 import ucsbCurriculum.Scheduler.*;
 import ucsbCurriculum.Utility.*;
+import ucsbCurriculum.Scheduler.Calendar;
 import ucsbCurriculum.Utility.ConstraintTime;
 
 public class Application extends Controller {
@@ -97,9 +98,13 @@ public class Application extends Controller {
     }
     
     public Result showSchdule(){
-        scheduler.createCalendar();
+        ArrayList <Calendar> play = new ArrayList<Calendar>();
         ArrayList <Calendar> list = new ArrayList<Calendar>();
-        list = scheduler.calendar;
-        return ok(views.html.schdule.render(list));
+        ArrayList <String> hell = new ArrayList<String>();
+        play = scheduler.createCalendarLecture();
+        list = scheduler.createCalendarSection();
+        // ArrayList <Time> list = new ArrayList<Time>();
+        // list = scheduler.courses.get_lectureTimes();
+        return ok(views.html.schdule.render(play,list));
     }
 }

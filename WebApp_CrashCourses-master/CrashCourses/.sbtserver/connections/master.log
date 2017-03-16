@@ -1,13 +1,97 @@
-New log file opened at Mon Mar 13 22:42:17 PDT 2017 by 2696@DESKTOP-JI6ETD8
-Taking next connection to: 61189
-New client attempting to connect on port: 61190-61189
-  Address = /127.0.0.1:61189
-This client on port 61190 has uuid e5d3be08-c344-4eda-8ef4-ec9fd6cd22d1 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-e5d3be08-c344-4eda-8ef4-ec9fd6cd22d1
-Taking next connection to: 61189
+New log file opened at Thu Mar 16 13:18:27 PDT 2017 by 10936@DESKTOP-JI6ETD8
+Taking next connection to: 55841
+New client attempting to connect on port: 55842-55841
+  Address = /192.168.86.106:55841
+This client on port 55842 has uuid 41c4c4a8-6567-4d61-8806-a7df9f7c30c4 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-41c4c4a8-6567-4d61-8806-a7df9f7c30c4
+Taking next connection to: 55841
+New client attempting to connect on port: 55843-55841
+  Address = /192.168.86.106:55841
+Handshake exception on socket: 55843
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 55841
+New client attempting to connect on port: 55844-55841
+  Address = /192.168.86.106:55841
+This client on port 55844 has uuid f08907ba-9e71-483b-9557-20b8f177729e configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-41c4c4a8-6567-4d61-8806-a7df9f7c30c4, play-fork-run-f08907ba-9e71-483b-9557-20b8f177729e
+Taking next connection to: 55841
+New client attempting to connect on port: 55845-55841
+  Address = /192.168.86.106:55841
+Handshake exception on socket: 55845
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 55841
+New client attempting to connect on port: 55846-55841
+  Address = /192.168.86.106:55841
+This client on port 55846 has uuid 7d4e68aa-e8cd-4603-b4fa-1cd3b988be5c configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-41c4c4a8-6567-4d61-8806-a7df9f7c30c4, play-fork-run-7d4e68aa-e8cd-4603-b4fa-1cd3b988be5c
+Taking next connection to: 55841
 Checking to see if clients are empty...
-No non-daemon clients connected after 3 min. Shutting down.
-Server socket thread exiting.
-0 clients open, will close them...
-All client sockets have been closed.
-Closing the 2696@DESKTOP-JI6ETD8 logs at Mon Mar 13 22:45:18 PDT 2017, goodbye.
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 55841
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 55841
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 55841
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 55841
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 55841
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 55841
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 55841
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 55841
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 55841
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 55841
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 55841
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 55841
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 55841
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 55841

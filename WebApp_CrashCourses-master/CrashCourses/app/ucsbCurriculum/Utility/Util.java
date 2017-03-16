@@ -215,50 +215,71 @@ public static String convert_to_string(Time t){
         
     }   
 
-    public String ConverttoMilitary(Time j){
+    public static Time ConverttoMilitary(Time j){
+        int militaryend=0;
+        int militarystart=0;
         String both = convert_to_string(j);
         both = both.replaceAll("\\s+", "");
         both = both.replaceAll(":", "");
+        both = both.substring(1, both.length());
         String[] tab = both.split("-");
         String start = tab[0];
         String end = tab[1];
-        if(start.contains("pm"){
-            start=start.replaceAll("pm", "");
+        if(start.contains("pm") && start.contains("12:")){
+            start.replace("pm", "");
             int resultst = Integer.parseInt(start);
-            int militarystart = resultst + 1200;
+            militarystart = resultst;
         }
-        if(end.contains("pm"){
-            end=end.replaceAll("pm", "");
-            int resultend = Integer.parseInt(end);
-            int militaryend = resultend + 1200;
+        
+        if(end.contains("pm") && end.contains("12:")){
+            start.replace("pm", "");
+            int resultend = Integer.parseInt(start);
+            militaryend = resultend;
         }
-        if(start.contains("am"){
-            start=start.replaceAll("am", "");
+        
+        if(start.contains("pm") && !end.contains("12:")){
+            start=start.replace("pm", "");
             int resultst = Integer.parseInt(start);
-            int militarystart = resultst;
+            militarystart = resultst + 1200;
         }
-        if(end.contains("am"){
-            end=end.replaceAll("am","");
+        
+        if(end.contains("pm") && !end.contains("12:")){
+            end=end.replace("pm", "");
             int resultend = Integer.parseInt(end);
-            int militaryend = resultend;
+            militaryend = resultend + 1200;
+        }
+        if(start.contains("am")){
+            start=start.replace("am", "");
+            int resultst = Integer.parseInt(start);
+            militarystart = resultst;
+        }
+        if(end.contains("am")){
+            end=end.replace("am","");
+            int resultend = Integer.parseInt(end);
+            militaryend = resultend;
         }
         String Militaryst = Integer.toString(militarystart);
-        if(Militaryst.length()==3){
-            Militaryst = Militaryst.substring(0,0) + ":" + Militaryst.substring(1, Militaryst.length());
-        }
-        if(Militaryst.length()==4){
-            Militaryst = Militaryst.substring(0,1) + ":" + Militaryst.substring(2, Militaryst.length());
-        }
-        
         String Militaryen = Integer.toString(militaryend);
-        if(Militaryen.length()==3){
-            Militaryen = Militaryen.substring(0,0) + ":" + Militaryen.substring(1, Militaryen.length());
+        System.out.println(Militaryst + " " + Militaryen);
+        if(Militaryst.length()==4){
+            Militaryst = Militaryst.substring(0,2) + ":" + Militaryst.substring(2, Militaryst.length());
+        }
+        if(Militaryst.length()==3){
+            Militaryst = Militaryst.substring(0,1) + ":" + Militaryst.substring(1, Militaryst.length());
         }
         if(Militaryen.length()==4){
-            Militaryen = Militaryen.substring(0,1) + ":" + Militaryen.substring(2, Militaryen.length());
+            Militaryen = Militaryen.substring(0,2) + ":" + Militaryen.substring(2, Militaryen.length());
         }
-        
-        j.startMilitary = Militaryst;
-        j.endMilitary = Militaryen;
+        if(Militaryen.length()==3){
+            Militaryen = Militaryen.substring(0,1) + ":" + Militaryen.substring(1, Militaryen.length());
+        }
+        // System.out.println(start + " " + end);
+        // j.startMilitary = Militaryst;
+        // j.endMilitary = Militaryen;
+        // return j.startMilitary + " " + j.endMilitary;
+        Time ti= new Time(0,0);
+        ti.startMilitary = Militaryst;
+        ti.endMilitary = Militaryen;
+        return ti;
     }
 }

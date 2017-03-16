@@ -1,4 +1,4 @@
-@(scelist: List[ucsbCurriculum.Scheduler.Calendar])
+@(leclist: List[ucsbCurriculum.Scheduler.Calendar], seclist: List[ucsbCurriculum.Scheduler.Calendar])
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
@@ -13,9 +13,10 @@
 	<script src="@routes.Assets.at("javascripts/jquery-3.0.0.min.js")"></script>
 </head>
 <body>
-@for(sce <- scelist){
-    <p>@sce.day</p>
+    @for(sce <- seclist){
+   <p>@sce.day</p>
     }
+    
 <div class="cd-schedule loading">
 	<div class="timeline">
 		<ul>
@@ -59,18 +60,22 @@
 
 				<ul class="Monday">
 					
+					@for(sce <- leclist){
+    <li class="single-event" data-start=@sce.startTime data-end=@sce.endTime data-content="event-rowing-workout" data-event="event-2">
+						<a href="#0">	<em class="event-name">@sce.id</em> </a> </li>
+    }
 					
-					<li class="single-event" data-start="11:00" data-end="12:30" data-content="event-rowing-workout" data-event="event-2">
-						<a href="#0">
-							<em class="event-name">Rowing Workout</em>
-						</a>
-					</li>
+					<!--<li class="single-event" data-start="11:00" data-end="12:30" data-content="event-rowing-workout" data-event="event-2">-->
+					<!--	<a href="#0">-->
+					<!--		<em class="event-name">Rowing Workout</em>-->
+					<!--	</a>-->
+					<!--</li>-->
 
-					<li class="single-event" data-start="14:00" data-end="15:15"  data-content="event-yoga-1" data-event="event-3">
-						<a href="#0">
-							<em class="event-name">Yoga Level 1</em>
-						</a>
-					</li>
+					<!--<li class="single-event" data-start="14:00" data-end="15:15"  data-content="event-yoga-1" data-event="event-3">-->
+					<!--	<a href="#0">-->
+					<!--		<em class="event-name">Yoga Level 1</em>-->
+					<!--	</a>-->
+					<!--</li>-->
 				</ul>
 			</li>
 
@@ -210,11 +215,6 @@
 
 	<div class="cover-layer"></div>
 </div> <!-- .cd-schedule -->
-@for(sce <- scelist){
-    @if(sce.equals("Tuesday")){
-    <p>Tuesday</p>
-    }
-    }
 
 <script src="@routes.Assets.at("js/modernizr.js")"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>

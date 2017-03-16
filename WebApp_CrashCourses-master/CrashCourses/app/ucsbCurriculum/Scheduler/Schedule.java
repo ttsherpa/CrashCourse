@@ -1,7 +1,7 @@
 package ucsbCurriculum.Scheduler;
 
 import java.util.ArrayList;
-
+import ucsbCurriculum.Scheduler.*;
 
 import ucsbCurriculum.Utility.*;
 
@@ -19,33 +19,68 @@ public class Schedule {
     public int onlySectionsAfter = 0;
     public int onlySectionsBefore = 0;
     
-    public ArrayList<Calendar> calendar = new ArrayList<Calendar>();
+    public ArrayList<Calendar> lecturecalendar = new ArrayList<Calendar>();
+    public ArrayList<Calendar> sectioncalendar = new ArrayList<Calendar>();
     
-    public void createCalendar(){
+    public ArrayList<Calendar> createCalendarLecture(){
         for(int i = 0; i<courses.size(); i++){
             ArrayList<Time> lecture = new ArrayList<Time>();
             lecture = courses.get(i).lectureTimes;
-            for(int j = 0; i<lecture.size(); j++){
+            for(int j = 0; j<lecture.size(); j++){
                 Calendar thisCourse = new Calendar();
                 thisCourse.id = courses.get(i).id;
-                thisCourse.startTime = lecture.get(i).startMilitary;
-                thisCourse.endTime = lecture.get(i).endMilitary;
-                thisCourse.day = lecture.get(i).day;
-                calendar.add(thisCourse);
+                Time c = Util.ConverttoMilitary(lecture.get(j));
+                thisCourse.startTime = c.startMilitary;
+                thisCourse.endTime = c.endMilitary;
+                thisCourse.day = lecture.get(j).day;
+                lecturecalendar.add(thisCourse);
             }
         }
+        return lecturecalendar;
+    }
+    
+    // public ArrayList<String> pulldays(){
+    //     for(int i = 0; i<courses.size(); i++){
+    //         ArrayList<Time> lecture = new ArrayList<Time>();
+    //         lecture = courses.get(i).lectureTimes;
+    //         for(int j = 0; j<lecture.size(); j++){
+    //             String hello = lecture.get(j).day;
+    //             String[] parts = hello.split(" ");
+    //             for(int a =0; j<parts.length; a++){
+    //                 splitdays.add(parts[a]);
+    //             }
+                    
+    //         }
+    //     }
+    //     return splitdays;
+        
+    // }
+    
+    public ArrayList<Calendar> createCalendarSection(){
+        if (sections.size()==0){
+            Calendar thisSection = new Calendar();
+                thisSection.id = "NO SECTION";
+                thisSection.startTime = "";
+                thisSection.endTime = "";
+                thisSection.day = "";
+                sectioncalendar.add(thisSection);
+        }
+        if (sections.size() > 0){
         for(int k = 0; k<sections.size(); k++){
             ArrayList<Time> currentSections = new ArrayList<Time>();
             currentSections = sections.get(k);
             for(int l = 0; l<1; l++){
                 Calendar thisSection = new Calendar();
                 thisSection.id = "Section";
-                thisSection.startTime = currentSections.get(l).startMilitary;
-                thisSection.endTime = currentSections.get(l).endMilitary;
+                Time d = Util.ConverttoMilitary(currentSections.get(l));
+                thisSection.startTime = d.startMilitary;
+                thisSection.endTime = d.endMilitary;
                 thisSection.day = currentSections.get(l).day;
-                calendar.add(thisSection);
+                sectioncalendar.add(thisSection);
             }
         }
+    }
+    return sectioncalendar;
     }
     
     public Schedule(){
