@@ -1,5 +1,5 @@
-New log file opened at Thu Mar 16 13:07:09 PDT 2017 by 3284@DESKTOP-JI6ETD8
-jvm 3284@DESKTOP-JI6ETD8
+New log file opened at Thu Mar 16 17:17:38 PDT 2017 by 11944@DESKTOP-JI6ETD8
+jvm 11944@DESKTOP-JI6ETD8
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.121-b13
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\project, returning: (crashcourses-build)
 Loading project definition from C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@4e582ef5, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@40258160, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -67,130 +67,83 @@ Set current project to CrashCourses (in build file:/C:/Users/tashi/Documents/upd
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
-> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@7337a855, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 2 s, completed Mar 16, 2017 1:07:22 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/compile:mainClass
-Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@21b1f930, check cycles: false
-Total time: 0 s, completed Mar 16, 2017 1:07:22 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@2396b500, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 1 s, completed Mar 16, 2017 1:07:23 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/compile:mainClass
-Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@22c1b1f5, check cycles: false
-Total time: 0 s, completed Mar 16, 2017 1:07:23 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
 > compile
 Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@7945d03a, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@15367e76, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
+	modified: Set()
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
+Initial directly invalidated sources: Set()
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
+All initially invalidated sources: Set()
 
-Read from stdout: Compiling 1 Scala source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 79111e83, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes;C:\Users\tashi\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes;C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\lib\jsoup-1.10.2.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\tashi\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.6.jar;C:\Users\tashi\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.7.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.21.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.21.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.21.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.7.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\tashi\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\tashi\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\tashi\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\tashi\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\tashi\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\tashi\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\tashi\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.16.jar;C:\Users\tashi\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.2.4.Final.jar;C:\Users\tashi\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\tashi\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.1.0.jar;C:\Users\tashi\.ivy2\cache\javax.el\javax.el-api\jars\javax.el-api-3.0.0.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.10.jar;C:\Users\tashi\.ivy2\cache\com.google.guava\guava\bundles\guava-19.0.jar;C:\Users\tashi\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.4.jar;C:\Users\tashi\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-3.0.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.33.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.8.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.8.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-handler\jars\netty-handler-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-transport\jars\netty-transport-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-codec\jars\netty-codec-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-codec-http\jars\netty-codec-http-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-transport-native-epoll\jars\netty-transport-native-epoll-4.0.41.Final-linux-x86_64.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar;C:\Users\tashi\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\tashi\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.5.1.jar;C:\Users\tashi\.ivy2\cache\com.googlecode.usc\jdbcdslog\jars\jdbcdslog-1.0.6.2.jar;C:\Users\tashi\.ivy2\cache\com.h2database\h2\jars\h2-1.4.192.jar;C:\Users\tashi\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\async-http-client\jars\async-http-client-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-resolver-dns\jars\netty-resolver-dns-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-resolver\jars\netty-resolver-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-codec-dns\jars\netty-codec-dns-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.20.0-GA.jar;C:\Users\tashi\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\tashi\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\tashi\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\tashi\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
-Scala compilation took 6.162508908 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 8 s, completed Mar 16, 2017 1:08:19 PM
+Total time: 2 s, completed Mar 16, 2017 5:17:45 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@4e2c2ddc, check cycles: false
+Total time: 0 s, completed Mar 16, 2017 5:17:45 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@37e439a7, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed Mar 16, 2017 5:17:46 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@6dc47ed1, check cycles: false
+Total time: 0 s, completed Mar 16, 2017 5:17:47 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > backgroundRun
 Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@7fa767ff, check cycles: false
-Total time: 0 s, completed Mar 16, 2017 1:08:23 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@10551722, check cycles: false
+Total time: 0 s, completed Mar 16, 2017 5:25:06 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/*:playForkConfig
 Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@52aef30b, check cycles: false
-Total time: 1 s, completed Mar 16, 2017 1:08:26 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@6f726d13, check cycles: false
+Total time: 1 s, completed Mar 16, 2017 5:25:09 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > root/playForkNotifyStart http://localhost:9000
 Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@70d60561, check cycles: false
-Total time: 0 s, completed Mar 16, 2017 1:08:28 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@18d37689, check cycles: false
+Total time: 0 s, completed Mar 16, 2017 5:25:11 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@31853882, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@63466a84, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -212,432 +165,12 @@ Copy resource mappings:
 	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\logback.xml,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\logback.xml)
 	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\routes,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\routes)
 Warning: node.js detection failed, sbt will use the Rhino based Trireme JavaScript engine instead to run JavaScript assets compilation, which in some cases may be orders of magnitude slower than using node.js.
-Total time: 2 s, completed Mar 16, 2017 1:08:34 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@5971d9ea, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-
-Read from stdout: Compiling 1 Scala source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 66e29216, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes;C:\Users\tashi\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes;C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\lib\jsoup-1.10.2.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\tashi\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.6.jar;C:\Users\tashi\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.7.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.21.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.21.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.21.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.7.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\tashi\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\tashi\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\tashi\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\tashi\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\tashi\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\tashi\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\tashi\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.16.jar;C:\Users\tashi\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.2.4.Final.jar;C:\Users\tashi\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\tashi\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.1.0.jar;C:\Users\tashi\.ivy2\cache\javax.el\javax.el-api\jars\javax.el-api-3.0.0.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.10.jar;C:\Users\tashi\.ivy2\cache\com.google.guava\guava\bundles\guava-19.0.jar;C:\Users\tashi\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.4.jar;C:\Users\tashi\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-3.0.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.33.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.8.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.8.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-handler\jars\netty-handler-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-transport\jars\netty-transport-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-codec\jars\netty-codec-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-codec-http\jars\netty-codec-http-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-transport-native-epoll\jars\netty-transport-native-epoll-4.0.41.Final-linux-x86_64.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar;C:\Users\tashi\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\tashi\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.5.1.jar;C:\Users\tashi\.ivy2\cache\com.googlecode.usc\jdbcdslog\jars\jdbcdslog-1.0.6.2.jar;C:\Users\tashi\.ivy2\cache\com.h2database\h2\jars\h2-1.4.192.jar;C:\Users\tashi\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\async-http-client\jars\async-http-client-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-resolver-dns\jars\netty-resolver-dns-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-resolver\jars\netty-resolver-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-codec-dns\jars\netty-codec-dns-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.20.0-GA.jar;C:\Users\tashi\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\tashi\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\tashi\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\tashi\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
-Scala compilation took 1.668524368 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 3 s, completed Mar 16, 2017 1:11:33 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@1df36efc, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\application.conf,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\application.conf)
-	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\logback.xml,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\logback.xml)
-	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\routes,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\routes)
-Total time: 1 s, completed Mar 16, 2017 1:11:36 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@45411535, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-
-Read from stdout: Compiling 1 Scala source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 149b488e, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes;C:\Users\tashi\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes;C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\lib\jsoup-1.10.2.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\tashi\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.6.jar;C:\Users\tashi\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.7.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.21.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.21.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.21.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.7.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\tashi\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\tashi\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\tashi\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\tashi\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\tashi\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\tashi\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\tashi\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.16.jar;C:\Users\tashi\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.2.4.Final.jar;C:\Users\tashi\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\tashi\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.1.0.jar;C:\Users\tashi\.ivy2\cache\javax.el\javax.el-api\jars\javax.el-api-3.0.0.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.10.jar;C:\Users\tashi\.ivy2\cache\com.google.guava\guava\bundles\guava-19.0.jar;C:\Users\tashi\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.4.jar;C:\Users\tashi\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-3.0.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.33.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.8.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.8.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-handler\jars\netty-handler-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-transport\jars\netty-transport-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-codec\jars\netty-codec-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-codec-http\jars\netty-codec-http-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-transport-native-epoll\jars\netty-transport-native-epoll-4.0.41.Final-linux-x86_64.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar;C:\Users\tashi\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\tashi\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.5.1.jar;C:\Users\tashi\.ivy2\cache\com.googlecode.usc\jdbcdslog\jars\jdbcdslog-1.0.6.2.jar;C:\Users\tashi\.ivy2\cache\com.h2database\h2\jars\h2-1.4.192.jar;C:\Users\tashi\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\async-http-client\jars\async-http-client-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-resolver-dns\jars\netty-resolver-dns-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-resolver\jars\netty-resolver-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-codec-dns\jars\netty-codec-dns-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.20.0-GA.jar;C:\Users\tashi\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\tashi\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\tashi\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\tashi\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
-Scala compilation took 1.694736813 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 2 s, completed Mar 16, 2017 1:12:25 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@2a93d4b0, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\application.conf,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\application.conf)
-	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\logback.xml,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\logback.xml)
-	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\routes,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\routes)
-Total time: 1 s, completed Mar 16, 2017 1:12:29 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@506b2961, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-
-Read from stdout: Compiling 1 Scala source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 7941e963, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes;C:\Users\tashi\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes;C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\lib\jsoup-1.10.2.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\tashi\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.6.jar;C:\Users\tashi\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.7.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.21.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.21.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.21.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.7.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\tashi\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\tashi\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\tashi\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\tashi\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\tashi\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\tashi\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\tashi\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.16.jar;C:\Users\tashi\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.2.4.Final.jar;C:\Users\tashi\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\tashi\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.1.0.jar;C:\Users\tashi\.ivy2\cache\javax.el\javax.el-api\jars\javax.el-api-3.0.0.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.10.jar;C:\Users\tashi\.ivy2\cache\com.google.guava\guava\bundles\guava-19.0.jar;C:\Users\tashi\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.4.jar;C:\Users\tashi\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-3.0.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.33.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.8.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.8.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-handler\jars\netty-handler-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-transport\jars\netty-transport-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-codec\jars\netty-codec-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-codec-http\jars\netty-codec-http-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-transport-native-epoll\jars\netty-transport-native-epoll-4.0.41.Final-linux-x86_64.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar;C:\Users\tashi\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\tashi\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.5.1.jar;C:\Users\tashi\.ivy2\cache\com.googlecode.usc\jdbcdslog\jars\jdbcdslog-1.0.6.2.jar;C:\Users\tashi\.ivy2\cache\com.h2database\h2\jars\h2-1.4.192.jar;C:\Users\tashi\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\async-http-client\jars\async-http-client-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-resolver-dns\jars\netty-resolver-dns-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-resolver\jars\netty-resolver-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-codec-dns\jars\netty-codec-dns-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.20.0-GA.jar;C:\Users\tashi\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\tashi\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\tashi\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\tashi\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
-Read from stdout: C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\views\schdule.scala.html:17: not found: value sce
-C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\views\schdule.scala.html:17: not found: value sce
-Read from stdout: <div class="cd-schedule loading">
-<div class="cd-schedule loading">
-Read from stdout: ^
-   ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 2 s, completed Mar 16, 2017 1:15:22 PM
-> server-post-command-error-handler
+Total time: 2 s, completed Mar 16, 2017 5:25:55 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@1ce3b66d, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-
-Read from stdout: Compiling 1 Scala source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 3f6098d9, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes;C:\Users\tashi\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes;C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\lib\jsoup-1.10.2.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\tashi\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.6.jar;C:\Users\tashi\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.7.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.21.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.21.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.21.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.7.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\tashi\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\tashi\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\tashi\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\tashi\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\tashi\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\tashi\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\tashi\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.16.jar;C:\Users\tashi\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.2.4.Final.jar;C:\Users\tashi\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\tashi\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.1.0.jar;C:\Users\tashi\.ivy2\cache\javax.el\javax.el-api\jars\javax.el-api-3.0.0.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.10.jar;C:\Users\tashi\.ivy2\cache\com.google.guava\guava\bundles\guava-19.0.jar;C:\Users\tashi\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.4.jar;C:\Users\tashi\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-3.0.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.33.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.8.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.8.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-handler\jars\netty-handler-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-transport\jars\netty-transport-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-codec\jars\netty-codec-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-codec-http\jars\netty-codec-http-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-transport-native-epoll\jars\netty-transport-native-epoll-4.0.41.Final-linux-x86_64.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar;C:\Users\tashi\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\tashi\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.5.1.jar;C:\Users\tashi\.ivy2\cache\com.googlecode.usc\jdbcdslog\jars\jdbcdslog-1.0.6.2.jar;C:\Users\tashi\.ivy2\cache\com.h2database\h2\jars\h2-1.4.192.jar;C:\Users\tashi\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\async-http-client\jars\async-http-client-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-resolver-dns\jars\netty-resolver-dns-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-resolver\jars\netty-resolver-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-codec-dns\jars\netty-codec-dns-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.20.0-GA.jar;C:\Users\tashi\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\tashi\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\tashi\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\tashi\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
-Read from stdout: C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\views\schdule.scala.html:17: not found: value sce
-C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\views\schdule.scala.html:17: not found: value sce
-Read from stdout: <div class="cd-schedule loading">
-<div class="cd-schedule loading">
-Read from stdout: ^
-   ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 1 s, completed Mar 16, 2017 1:15:29 PM
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/compile:mainClass
-Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@70fb5a49, check cycles: false
-Total time: 0 s, completed Mar 16, 2017 1:15:29 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@75679501, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-
-Read from stdout: Compiling 1 Scala source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 239b6b52, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes;C:\Users\tashi\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes;C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\lib\jsoup-1.10.2.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\tashi\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.6.jar;C:\Users\tashi\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.7.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.21.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.21.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.21.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.7.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\tashi\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\tashi\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\tashi\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\tashi\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\tashi\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\tashi\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\tashi\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.16.jar;C:\Users\tashi\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.2.4.Final.jar;C:\Users\tashi\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\tashi\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.1.0.jar;C:\Users\tashi\.ivy2\cache\javax.el\javax.el-api\jars\javax.el-api-3.0.0.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.10.jar;C:\Users\tashi\.ivy2\cache\com.google.guava\guava\bundles\guava-19.0.jar;C:\Users\tashi\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.4.jar;C:\Users\tashi\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-3.0.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.33.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.8.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.8.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-handler\jars\netty-handler-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-transport\jars\netty-transport-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-codec\jars\netty-codec-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-codec-http\jars\netty-codec-http-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-transport-native-epoll\jars\netty-transport-native-epoll-4.0.41.Final-linux-x86_64.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar;C:\Users\tashi\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\tashi\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.5.1.jar;C:\Users\tashi\.ivy2\cache\com.googlecode.usc\jdbcdslog\jars\jdbcdslog-1.0.6.2.jar;C:\Users\tashi\.ivy2\cache\com.h2database\h2\jars\h2-1.4.192.jar;C:\Users\tashi\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\async-http-client\jars\async-http-client-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-resolver-dns\jars\netty-resolver-dns-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-resolver\jars\netty-resolver-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-codec-dns\jars\netty-codec-dns-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.20.0-GA.jar;C:\Users\tashi\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\tashi\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\tashi\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\tashi\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
-Read from stdout: C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\views\schdule.scala.html:17: not found: value sce
-C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\views\schdule.scala.html:17: not found: value sce
-Read from stdout: <div class="cd-schedule loading">
-<div class="cd-schedule loading">
-Read from stdout: ^
-   ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 1 s, completed Mar 16, 2017 1:15:45 PM
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@3de82029, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-
-Read from stdout: Compiling 1 Scala source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 55f88516, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes;C:\Users\tashi\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes;C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\lib\jsoup-1.10.2.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\tashi\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.6.jar;C:\Users\tashi\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.7.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.21.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.21.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.21.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.7.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\tashi\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\tashi\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\tashi\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\tashi\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\tashi\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\tashi\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\tashi\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.16.jar;C:\Users\tashi\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.2.4.Final.jar;C:\Users\tashi\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\tashi\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.1.0.jar;C:\Users\tashi\.ivy2\cache\javax.el\javax.el-api\jars\javax.el-api-3.0.0.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.10.jar;C:\Users\tashi\.ivy2\cache\com.google.guava\guava\bundles\guava-19.0.jar;C:\Users\tashi\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.4.jar;C:\Users\tashi\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-3.0.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.33.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.8.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.8.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-handler\jars\netty-handler-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-transport\jars\netty-transport-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-codec\jars\netty-codec-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-codec-http\jars\netty-codec-http-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-transport-native-epoll\jars\netty-transport-native-epoll-4.0.41.Final-linux-x86_64.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar;C:\Users\tashi\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\tashi\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.5.1.jar;C:\Users\tashi\.ivy2\cache\com.googlecode.usc\jdbcdslog\jars\jdbcdslog-1.0.6.2.jar;C:\Users\tashi\.ivy2\cache\com.h2database\h2\jars\h2-1.4.192.jar;C:\Users\tashi\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\async-http-client\jars\async-http-client-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-resolver-dns\jars\netty-resolver-dns-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-resolver\jars\netty-resolver-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-codec-dns\jars\netty-codec-dns-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.20.0-GA.jar;C:\Users\tashi\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\tashi\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\tashi\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\tashi\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
-Scala compilation took 1.306146844 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 2 s, completed Mar 16, 2017 1:16:29 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@11e29824, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\twirl\main\views\html\schdule.template.scala)
-
-Read from stdout: Compiling 1 Scala source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 782a91f2, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes;C:\Users\tashi\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes;C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\lib\jsoup-1.10.2.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-enhancer\jars\play-enhancer-1.1.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\tashi\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.6.jar;C:\Users\tashi\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.7.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.7.8.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.21.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.21.jar;C:\Users\tashi\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.21.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.7.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\tashi\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.12.jar;C:\Users\tashi\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\tashi\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\tashi\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\tashi\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\tashi\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\tashi\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\tashi\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\tashi\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.16.jar;C:\Users\tashi\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.2.4.Final.jar;C:\Users\tashi\.ivy2\cache\javax.validation\validation-api\jars\validation-api-1.1.0.Final.jar;C:\Users\tashi\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.1.Final.jar;C:\Users\tashi\.ivy2\cache\com.fasterxml\classmate\bundles\classmate-1.1.0.jar;C:\Users\tashi\.ivy2\cache\javax.el\javax.el-api\jars\javax.el-api-3.0.0.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.2.7.RELEASE.jar;C:\Users\tashi\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.10.jar;C:\Users\tashi\.ivy2\cache\com.google.guava\guava\bundles\guava-19.0.jar;C:\Users\tashi\.ivy2\cache\net.jodah\typetools\bundles\typetools-0.4.4.jar;C:\Users\tashi\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-3.0.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.33.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.8.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.8.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-handler\jars\netty-handler-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-transport\jars\netty-transport-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-codec\jars\netty-codec-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-codec-http\jars\netty-codec-http-4.0.41.Final.jar;C:\Users\tashi\.ivy2\cache\io.netty\netty-transport-native-epoll\jars\netty-transport-native-epoll-4.0.41.Final-linux-x86_64.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar;C:\Users\tashi\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.11\jars\play-java-jdbc_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\tashi\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.5.1.jar;C:\Users\tashi\.ivy2\cache\com.googlecode.usc\jdbcdslog\jars\jdbcdslog-1.0.6.2.jar;C:\Users\tashi\.ivy2\cache\com.h2database\h2\jars\h2-1.4.192.jar;C:\Users\tashi\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.5.10.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\async-http-client\jars\async-http-client-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-resolver-dns\jars\netty-resolver-dns-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-resolver\jars\netty-resolver-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.asynchttpclient\netty-codec-dns\jars\netty-codec-dns-2.0.11.jar;C:\Users\tashi\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.20.0-GA.jar;C:\Users\tashi\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\tashi\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\tashi\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\tashi\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\tashi\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
-Scala compilation took 0.880218325 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 2 s, completed Mar 16, 2017 1:17:32 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@24c3ba6f, check cycles: false
-Total time: 0 s, completed Mar 16, 2017 1:17:35 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@49676c23, check cycles: false
-Total time: 1 s, completed Mar 16, 2017 1:17:38 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/compile:mainClass
-Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@5834a434, check cycles: false
-Total time: 0 s, completed Mar 16, 2017 1:18:19 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@68a885e7, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@49bf0a53, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -654,7 +187,13 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 1 s, completed Mar 16, 2017 1:18:20 PM
+Total time: 1 s, completed Mar 16, 2017 5:30:45 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@1916ebf0, check cycles: false
+Total time: 0 s, completed Mar 16, 2017 5:30:45 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 Done executing sbt server engine, result Right(Exit(0))
@@ -663,4 +202,4 @@ Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 3284@DESKTOP-JI6ETD8 logs at Thu Mar 16 13:18:21 PDT 2017, goodbye.
+Closing the 11944@DESKTOP-JI6ETD8 logs at Thu Mar 16 17:30:47 PDT 2017, goodbye.

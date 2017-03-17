@@ -123,6 +123,7 @@ public class Schedule {
       ArrayList<Time> sectionTime = c.get_sectionTimes();
       for (int i = 0; i < courses.size(); i++) {
         Course temp = courses.get(i);
+        System.out.println(temp);
         if (temp.equals(c)) {	
           // Only for command line version!!!
           //System.out.println("Course already added!!!");

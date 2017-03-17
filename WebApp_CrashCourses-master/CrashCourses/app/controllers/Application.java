@@ -57,15 +57,16 @@ public class Application extends Controller {
             String res = in.get("content");
             res = res.replaceAll("\\s","");
             res = res.toUpperCase();
-            res += " ";
-            for(int i = 0; i < res.length(); i++)
-            {
-                if(Character.isDigit(res.charAt(i)))
-                {
-                    res = res.substring(0, i) + " " + res.substring(i, res.length());
-                    break;
-                }
-            }
+            // res += " ";
+            // for(int i = 0; i < res.length(); i++)
+            // // {
+            // //     if()
+            // //     if(Character.isDigit(res.charAt(i)))
+            // //     {
+            // //         res = res.substring(0, i) + " " + res.substring(i, res.length());
+            // //         break;
+            // //     }
+            // // }
             System.out.println(res);
             scheduler.add(scraper.get_course_by_name(res));
             scheduler.deleteConflicts();
@@ -81,15 +82,15 @@ public class Application extends Controller {
             String res = in.get("content");
             res = res.replaceAll("\\s","");
             res = res.toUpperCase();
-            res += " ";
-            for(int i = 0; i < res.length(); i++)
-            {
-                if(Character.isDigit(res.charAt(i)))
-                {
-                    res = res.substring(0, i) + " " + res.substring(i, res.length());
-                    break;
-                }
-            }
+            // res += " ";
+            // for(int i = 0; i < res.length(); i++)
+            // {
+            //     if(Character.isDigit(res.charAt(i)))
+            //     {
+            //         res = res.substring(0, i) + " " + res.substring(i, res.length());
+            //         break;
+            //     }
+            // }
             scheduler.delete(scraper.get_course_by_name(res));
             return ok(views.html.res.render("Play", "", scheduler.toString()));
         }catch(NullPointerException e){

@@ -27,8 +27,11 @@ public class CourseScraper {
     
     public Course get_course_by_name(String courseName){
         for(int i = 0; i < courseList.size(); i++){
-        		if(courseList.get(i).get_id().equals(courseName))
+                String match = courseList.get(i).get_id();
+                match = match.replaceAll("\\s","");
+        		if(match.equals(courseName))
         			return courseList.get(i);
+        		System.out.println(match);
         }
         System.out.println("こんにちわ");
         return null;
