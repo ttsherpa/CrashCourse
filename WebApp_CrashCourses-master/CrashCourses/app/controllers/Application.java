@@ -34,7 +34,7 @@ public class Application extends Controller {
     public Result postForm(){
         Form<SearchRequest> requestForm = formFactory.form(SearchRequest.class);
         SearchRequest request = requestForm.bindFromRequest().get();
-        System.out.println(request.department);
+        //System.out.println(request.department);
         String res = scraper.getCourseListFor(request.department, request.quarter, request.level);
         return ok(views.html.res.render("Play", res, scheduler.toString()));
     }
@@ -67,7 +67,7 @@ public class Application extends Controller {
             // //         break;
             // //     }
             // // }
-            System.out.println(res);
+            //System.out.println(res);
             scheduler.add(scraper.get_course_by_name(res));
             scheduler.deleteConflicts();
             return ok(views.html.res.render("Play", "", scheduler.toString()));

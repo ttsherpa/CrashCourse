@@ -1,0 +1,5 @@
+New log file opened at Thu Mar 16 21:29:05 PDT 2017 by 12772@DESKTOP-JI6ETD8
+Sending msg to client play-fork-run-10655a63-01c4-495e-adc4-c291e3cd6dbd: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\.sbtserver\connections\master.log))
+Sending msg to client play-fork-run-10655a63-01c4-495e-adc4-c291e3cd6dbd: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\.sbtserver\master.log))
+Sending msg to client play-fork-run-10655a63-01c4-495e-adc4-c291e3cd6dbd: DetachedLogEvent(LogMessage(debug,sbt client logs are in: C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\.sbtserver\connections\play-fork-run-10655a63-01c4-495e-adc4-c291e3cd6dbd.log))
+Reading next message from client.

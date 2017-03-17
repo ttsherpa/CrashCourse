@@ -110,7 +110,7 @@ public class Schedule {
 
       for (int i = 0; i < time1.size(); i++) {
         for (int j = 0; j < time2.size(); j++) {
-          if (!Util.have_conflict(time1.get(i), time2.get(j))) {
+          if (!Conflict.have_conflict(time1.get(i), time2.get(j))) {
             // TO-DO: delete that element in the second list
             time2.remove(j);
           }
@@ -142,11 +142,11 @@ public class Schedule {
           //System.out.println("Course already added!!!");
           return;
         }
-        //if (!Course.compare(temp, c) || !compare(sections.get(i), sectionTime) || !compare(temp.get_lectureTimes(), sectionTime)) {
-          // Only for command line version!!!
-          //System.out.println("Conflicts detected! This course cannot be add to schedule!");
-          //return;
-        //}
+        if (!Course.compare(temp, c) || !compare(sections.get(i), sectionTime) || !compare(temp.get_lectureTimes(), sectionTime)) {
+        //   Only for command line version!!!
+          System.out.println("Conflicts detected! This course cannot be add to schedule!");
+          return;
+        }
       }
 
       courses.add(c);

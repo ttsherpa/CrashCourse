@@ -57,7 +57,7 @@ public class Course {
 		
 		for(int i = 0; i < len1; i++)
 			for(int j = 0; j < len2; j++)
-				if(Util.have_conflict(this.lectureTimes.get(i), t.get(j)))
+				if(Conflict.have_conflict(this.lectureTimes.get(i), t.get(j)))
 					return true;
 		return false;
 	}
