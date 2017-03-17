@@ -1,5 +1,5 @@
-New log file opened at Thu Mar 16 17:30:54 PDT 2017 by 13988@DESKTOP-JI6ETD8
-jvm 13988@DESKTOP-JI6ETD8
+New log file opened at Thu Mar 16 19:40:58 PDT 2017 by 8896@DESKTOP-JI6ETD8
+jvm 8896@DESKTOP-JI6ETD8
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.121-b13
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\project, returning: (crashcourses-build)
 Loading project definition from C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@64beed67, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@40258160, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -67,9 +67,9 @@ Set current project to CrashCourses (in build file:/C:/Users/tashi/Documents/upd
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
-> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@6228452c, check cycles: false
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@426ee121, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -86,92 +86,58 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 1 s, completed Mar 16, 2017 5:31:00 PM
+Total time: 1 s, completed Mar 16, 2017 7:41:05 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@4828a77e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed Mar 16, 2017 7:41:06 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@72bd438c, check cycles: false
-Total time: 0 s, completed Mar 16, 2017 5:31:00 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@2ff7c3bc, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 1 s, completed Mar 16, 2017 5:31:01 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@58dd8d01, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\ucsbCurriculum\Scheduler\Schedule.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\ucsbCurriculum\Scheduler\Schedule.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\ucsbCurriculum\Scheduler\Schedule.java)
-
-Read from stdout: Compiling 1 Java source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Compiling 1 Java source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@394e3388 directly...
-Java compilation took 0.558481253 s
-Java analysis took 0.067430834 s
-Java compile + analysis took 0.640283673 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 2 s, completed Mar 16, 2017 5:34:27 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@770689d7, check cycles: false
+Total time: 0 s, completed Mar 16, 2017 7:41:06 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > backgroundRun
 Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@722634c2, check cycles: false
-Total time: 0 s, completed Mar 16, 2017 5:34:30 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@2f16115f, check cycles: false
+Total time: 0 s, completed Mar 16, 2017 7:42:04 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/*:playForkConfig
 Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@27239d6b, check cycles: false
-Total time: 1 s, completed Mar 16, 2017 5:34:32 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@1901badb, check cycles: false
+Total time: 1 s, completed Mar 16, 2017 7:42:06 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > root/playForkNotifyStart http://localhost:9000
 Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@759b1d20, check cycles: false
-Total time: 0 s, completed Mar 16, 2017 5:34:34 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@5a367581, check cycles: false
+Total time: 0 s, completed Mar 16, 2017 7:42:08 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@2236cd69, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@67b518c0, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -193,80 +159,46 @@ Copy resource mappings:
 	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\logback.xml,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\logback.xml)
 	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\routes,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\routes)
 Warning: node.js detection failed, sbt will use the Rhino based Trireme JavaScript engine instead to run JavaScript assets compilation, which in some cases may be orders of magnitude slower than using node.js.
-Total time: 2 s, completed Mar 16, 2017 5:35:33 PM
+Total time: 2 s, completed Mar 16, 2017 7:42:11 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > compile
 Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@2a555bda, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@720b97a6, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\ucsbCurriculum\CourseScraper\CourseScraper.java)
+	modified: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\ucsbCurriculum\Scheduler\Schedule.java)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\ucsbCurriculum\CourseScraper\CourseScraper.java)
+Initial directly invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\ucsbCurriculum\Scheduler\Schedule.java)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\ucsbCurriculum\CourseScraper\CourseScraper.java)
+All initially invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\ucsbCurriculum\Scheduler\Schedule.java)
 
 Read from stdout: Compiling 1 Java source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
 Compiling 1 Java source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@2d799a87 directly...
-Java compilation took 0.156100458 s
-Java analysis took 0.006442654 s
-Java compile + analysis took 0.174407949 s
+Attempting to call com.sun.tools.javac.api.JavacTool@6b9a0d34 directly...
+Java compilation took 0.573589102 s
+Java analysis took 0.358670467 s
+Java compile + analysis took 0.951653472 s
 New invalidations:
 	Set()
 Initial set of included nodes: Set()
 Previously invalidated, but (transitively) depend on new invalidations:
 	Set()
 All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 1 s, completed Mar 16, 2017 5:46:33 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@529f508f, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\controllers\Application.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\controllers\Application.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\controllers\Application.java)
-
-Read from stdout: Compiling 1 Java source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Compiling 1 Java source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@7632cd8e directly...
-Java compilation took 0.203160994 s
-Java analysis took 0.005227538 s
-Java compile + analysis took 0.216923965 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 1 s, completed Mar 16, 2017 5:47:16 PM
+Total time: 2 s, completed Mar 16, 2017 7:47:47 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@1a6c287f, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@23916c21, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -287,46 +219,46 @@ Copy resource mappings:
 	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\application.conf,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\application.conf)
 	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\logback.xml,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\logback.xml)
 	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\routes,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\routes)
-Total time: 2 s, completed Mar 16, 2017 5:47:20 PM
+Total time: 1 s, completed Mar 16, 2017 7:47:52 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > compile
 Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@438d0e48, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@2c3e13ce, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\ucsbCurriculum\CourseScraper\CourseScraper.java)
+	modified: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\ucsbCurriculum\Utility\Util.java)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\ucsbCurriculum\CourseScraper\CourseScraper.java)
+Initial directly invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\ucsbCurriculum\Utility\Util.java)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\ucsbCurriculum\CourseScraper\CourseScraper.java)
+All initially invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\ucsbCurriculum\Utility\Util.java)
 
 Read from stdout: Compiling 1 Java source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
 Compiling 1 Java source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@359ef848 directly...
-Java compilation took 0.235592182 s
-Java analysis took 0.005170062 s
-Java compile + analysis took 0.250521608 s
+Attempting to call com.sun.tools.javac.api.JavacTool@22a25d54 directly...
+Java compilation took 0.201939531 s
+Java analysis took 0.014627938 s
+Java compile + analysis took 0.22827645 s
 New invalidations:
 	Set()
 Initial set of included nodes: Set()
 Previously invalidated, but (transitively) depend on new invalidations:
 	Set()
 All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 1 s, completed Mar 16, 2017 5:49:01 PM
+Total time: 1 s, completed Mar 16, 2017 7:53:08 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@2492f285, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@4ce0b76c, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -347,46 +279,12 @@ Copy resource mappings:
 	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\application.conf,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\application.conf)
 	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\logback.xml,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\logback.xml)
 	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\routes,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\routes)
-Total time: 1 s, completed Mar 16, 2017 5:49:06 PM
+Total time: 1 s, completed Mar 16, 2017 7:53:12 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > compile
 Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@38b5f9e3, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\controllers\Application.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\controllers\Application.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\controllers\Application.java)
-
-Read from stdout: Compiling 1 Java source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Compiling 1 Java source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@470f3572 directly...
-Java compilation took 0.125735602 s
-Java analysis took 0.00592043 s
-Java compile + analysis took 0.140423838 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 0 s, completed Mar 16, 2017 5:50:25 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@46bc82fe, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@39dff2d2, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -403,118 +301,13 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Copy resource mappings: 
-	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\application.conf,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\application.conf)
-	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\logback.xml,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\logback.xml)
-	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\routes,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\routes)
-Total time: 1 s, completed Mar 16, 2017 5:50:29 PM
+Total time: 0 s, completed Mar 16, 2017 7:56:45 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@70566755, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 0 s, completed Mar 16, 2017 5:52:15 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@735b54ea, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\application.conf,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\application.conf)
-	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\logback.xml,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\logback.xml)
-	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\routes,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\routes)
-Total time: 1 s, completed Mar 16, 2017 5:55:48 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@477a94a5, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\controllers\Application.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\controllers\Application.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\app\controllers\Application.java)
-
-Read from stdout: Compiling 1 Java source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Compiling 1 Java source to C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@2b6c1f6b directly...
-Java compilation took 0.150417339 s
-Java analysis took 0.004692972 s
-Java compile + analysis took 0.167242431 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 0 s, completed Mar 16, 2017 5:56:30 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/tashi/Documents/updatedversion/WebApp_CrashCourses-master/CrashCourses/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@1c08c4d9, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\application.conf,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\application.conf)
-	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\logback.xml,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\logback.xml)
-	(C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\conf\routes,C:\Users\tashi\Documents\updatedversion\WebApp_CrashCourses-master\CrashCourses\target\scala-2.11\classes\routes)
-Total time: 1 s, completed Mar 16, 2017 5:56:33 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 8896@DESKTOP-JI6ETD8 logs at Thu Mar 16 20:00:06 PDT 2017, goodbye.

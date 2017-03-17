@@ -26,6 +26,7 @@ public class Schedule {
         for(int i = 0; i<courses.size(); i++){
             ArrayList<Time> lecture = new ArrayList<Time>();
             lecture = courses.get(i).lectureTimes;
+            if(lecture.size()>0){
             for(int j = 0; j<lecture.size(); j++){
                 Calendar thisCourse = new Calendar();
                 thisCourse.id = courses.get(i).id;
@@ -35,6 +36,15 @@ public class Schedule {
                 thisCourse.day = lecture.get(j).day;
                 lecturecalendar.add(thisCourse);
             }
+            }
+            if (courses.size()==0 && lecture.size()==0){
+            Calendar thisCourse = new Calendar();
+                thisCourse.id = "NO SECTION";
+                thisCourse.startTime = "";
+                thisCourse.endTime = "";
+                thisCourse.day = "";
+                lecturecalendar.add(thisCourse);
+        }
         }
         return lecturecalendar;
     }
@@ -57,18 +67,12 @@ public class Schedule {
     // }
     
     public ArrayList<Calendar> createCalendarSection(){
-        if (sections.size()==0){
-            Calendar thisSection = new Calendar();
-                thisSection.id = "NO SECTION";
-                thisSection.startTime = "";
-                thisSection.endTime = "";
-                thisSection.day = "";
-                sectioncalendar.add(thisSection);
-        }
+        
         if (sections.size() > 0){
         for(int k = 0; k<sections.size(); k++){
             ArrayList<Time> currentSections = new ArrayList<Time>();
             currentSections = sections.get(k);
+            if(currentSections.size()>0){
             for(int l = 0; l<1; l++){
                 Calendar thisSection = new Calendar();
                 thisSection.id = "Section";
@@ -78,6 +82,15 @@ public class Schedule {
                 thisSection.day = currentSections.get(l).day;
                 sectioncalendar.add(thisSection);
             }
+            }
+            if (sections.size()==0 && currentSections.size()==0){
+            Calendar thisSection = new Calendar();
+                thisSection.id = "NO SECTION";
+                thisSection.startTime = "";
+                thisSection.endTime = "";
+                thisSection.day = "";
+                sectioncalendar.add(thisSection);
+        }
         }
     }
     return sectioncalendar;
